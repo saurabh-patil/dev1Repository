@@ -7,3 +7,5 @@ Copy your commit comment along with your name.
 Saurabh Patil
 
 Pradeep Pandey
+
+Gaurav Tripathi
