@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="myscript.js"></script>
+
+<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+<link rel="stylesheet" type="text/css" href="mycss.css">
+<style type="text/css">
+body {
+       background: linear-gradient(to right, #A9A9A9, white);
+	   margin-top:4%;
+     }
+
+
+</style>
+</head>
+
+<body >
+<marquee id="mq" behaviour="alternative" style="border:yellow 1px solid;width:29%; background: linear-gradient(to right, red, white);
+	  ">Please fill the information</marquee>
+
+<form action="#" onsubmit="validate();">
+<fieldset id ="fild" style="width:27%;" >
+<legend ><span style="color :red; font-size:15px;">User_Information</span></legend>
+
+<div >
+<div class="abc" >
+  Enter Firstname
+  <div class="inp"><input type="text" id="fn" placeholder="ENTER FIRSTNAME" ></div>
+  <div class="inp" ><label class="red" id="fn_er" for="fn" style="display:none;">enter user name</label></div>
+
+
+  </div>
+
+<div class="abc">
+  Enter Lastname
+  <div class="inp"><input type="text" id="ln" placeholder="ENTER LASTNAME"></div>
+  <div class="inp" ><label class="red" id="ln_er" for="ln" style="display:none;"> </label></div>
+  </div>
+
+
+ <div class="abc">
+  Enter Password
+  <div class="inp"><input type="password" id="pw" placeholder="ENTER CONTACT"></div>
+  <div class="inp" ><label class="red" id="pw_er" for="pw" style="display:none;"> </label></div>
+
+</div>
+
+
+ <div  class="abc">
+  Email-id
+  <div class="inp" style="padding-left:44px;"><input type="email" id="eid" placeholder="ENTER EMAIL-ID"></div>
+  <div class="inp" ><label class="red" id="eid_er" for="eid" style="display:none;"> </label></div>
+  </div>
+
+
+ <div class="abc">
+  Contact Number
+  <div class="inp" style="margin-left:1%;"><input type="text" id="cn" placeholder="ENTER CONTACT"></div>
+  <div class="inp" ><label class="red" id="con_er" for="cn" style="display:none;"> </label></div>
+ </div>
+
+<div class="abc" style="word-spacing:3.5em;">
+Sex
+  <div class="inp" style="margin-left:19px;">
+     <input type="radio" name="sex" id="sex" value="male" checked="checked">Male
+     <input type="radio" name="sex" id="sex" value="female">Female</div>
+</div>
+
+<div class="abc" >
+Country
+<div class="inp" style="padding-left:48px;"><input list="nation" id="country" placeholder="SELECT YOUR COUNTRY"></div>
+<div class="inp" ><label class="red" id="country_er" for="country" style="display:none;"> </label></div>
+
+<datalist id="nation">
+<option value="INDIA " selected="selected">
+<option value="US" >
+<option value="UK" >
+<option value="AUSTRALIA">
+<option value="JAPAN" >
+<option value="CHINA" >
+</datalist>
+</div>
+
+<div class="abc">
+<fieldset style="width:255px;">
+<legend >Technical Skills</legend>
+ <div style="word-spacing:12px;">
+ <input type="checkbox" name="skill" value="java">JAVA
+ <input type="checkbox" name="skill" value="asp">ASP.NET
+ <input type="checkbox" name="skill" value="php">PHP </div>
+
+<div style="word-spacing:5px;">
+<input type="checkbox" name="skill" value="python">PYTHON
+<input type="checkbox" name="skill" value="ruby">RUBY
+<input type="checkbox" name="skill" value="unix">UNIX</div>
+</fieldset >
+</div>
+
+
+<div class="abc" >
+Address
+<div style="display:inline; padding-left:47px;">
+<textarea rows="4" cols="18" name="add" id="add" placeholder="ENTER YOUR FULL ADDRESS"></textarea></div>
+<div class="inp" ><label class="red" id="add_er" for="add" style="display:none;">  </label></div>
+</div>
+
+   <div class="abc" style="word-spacing:4em;padding-left:7em;">
+     <input type="submit" value="save">
+     <input type="reset" value="reset">
+   </div>
+</div>
+</div>
+
+</fieldset>
+
+</form>
+
+</body>
+</html>
