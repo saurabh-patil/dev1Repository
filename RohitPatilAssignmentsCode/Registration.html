@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>  EMPLOYEE REGISTRATION FORM </title>
+<style type="text/css">
+
+tr
+{
+	height: 30px;
+}
+
+.leftCol
+{
+ text-align: right;
+ padding: 10px 10px;
+ font-weight: bold;
+ 
+}
+
+.fld
+{
+
+	width : 190px;
+    height: 19px;
+    color: blue;
+    font-weight: bold;
+}
+
+
+.fld:hover 
+{
+ zoom: 1.5;
+-ms-zoom: 2.0;
+-webkit-zoom: 2.0;
+-moz-transform:  scale(2.0,2.0);
+-moz-transform-origin: left center;
+   
+}
+
+
+
+</style>
+</head>
+
+<body  >
+
+<center>
+<div >
+<form action="#" name="Reg" >
+
+
+
+<table style="width: 60%; ">
+
+<tr>   <td colspan="2" style="background-color: #F5DA81; color: red; text-align: center; font-size: 20px; height: 40px; "> EMPLOYEE REGISTRATION FORM   </td>     </tr>
+
+<tr> <td class="leftCol" > EMPLOYEE NAME :</td> <td> <input class="fld" type="text" name="ename" pattern="[a-zA-Z]+" title="ENTER VALID NAME......!!" required="required">   </td>  </tr>
+
+<tr> <td class="leftCol"> EMAIL ADDRESS :</td> <td> <input class="fld" type="email" name="email" required="required">   </td>  </tr>
+<tr> <td class="leftCol"> MOBILE NUMBER :</td> <td> <input class="fld" type="text" maxlength="10" name="emobno" pattern="[0-9]{10}" title="ENTER VALID MOBILE NUMBER......!!" required="required">   </td>  </tr>
+
+
+<tr> <td class="leftCol "> GENDER :</td>
+
+ <td> <span style="font-weight: bold;"> <input type="radio" name="sex" value="male" checked>Male
+      <input type="radio" name="sex" value="female">Female
+      </td> 
+      </span> 
+ </tr>
+
+
+
+
+<tr> <td class="leftCol"> COUNTRY :</td> 
+	 <td>
+	  <select style="width: 190px;  font-weight:bold; height: 25px;">	  
+	  <option selected="selected"> -- SELECT -- </option>
+	  <option> INDIA </option>	  
+	  <option> SRILANKA </option>
+	  <option> NEPAL </option>
+	  <option> PAKISTAN </option>
+	  <option> JAPAN </option>
+	  <option> BANGLADESH </option> 
+	  </select>
+	 </td> 
+</tr>
+
+
+
+<tr> <td class="leftCol"> STATE :</td> <td> 
+
+<select style="width: 190px; height: 25px;  font-weight:bold;">	  
+	  <option selected="selected"> -- SELECT -- </option>
+	  <option> MAHARASHTRA </option>	  
+	  <option> KARNATAKA </option>
+	  <option> TELANGANA </option>
+	  <option> TAMILNADU </option>
+	  
+	  <option> KERAL </option> 
+	  </select>
+
+
+   </td>  </tr>
+<tr> <td class="leftCol"> CITY/VILLAGE :</td> <td>
+
+ <select style="width: 190px; font-weight:bold; height: 25px;">	  
+	  <option selected="selected"> -- SELECT -- </option>
+	  <option> PUNE </option>	  
+	  <option> MUMBAI </option>
+	  <option> NAGPUR </option>
+	  <option> LATUR </option>
+	  <option> AURANGABAD </option>
+	  
+	  </select>  
+ 
+ </td>  </tr>
+<tr> <td class="leftCol"> PINCODE :</td> <td> <input class="fld" pattern="[0-9]{5}" title="ENTER VALID PINCODE......!!" type="text" maxlength="5" name="epc" required="required">   </td>  </tr>
+
+<tr> <td class="leftCol"> USERNAME :</td> <td> <input class="fld" type="text" name="pun" required="required">   </td>  </tr>
+<tr> <td class="leftCol"> PASSWORD :</td> <td> <input class="fld" type="password" name="ep" required="required">   </td>  </tr>
+<tr> <td class="leftCol"> CONFORM PASSWORD :</td> <td> <input class="fld" type="password" name="ecp" required="required">   </td>  </tr>
+
+
+<tr> <td colspan="2"> 
+
+
+ <fieldset style="padding: 2%; ">
+                		<legend>  Which Technology You Prefered ?? </legend>
+                		
+                        <input style="padding: 25px;" type="checkbox" name="tech"  /> JAVA
+                        <input type="checkbox" name="tech" /> DOT NET
+                        <input type="checkbox" name="tech"  /> C
+                        <input type="checkbox" name="tech"  /> CPP
+                        <input type="checkbox" name="tech"  /> C#
+                        
+                        
+                        
+        </fieldset>
+
+
+
+
+
+</td> </tr>
+
+
+
+
+</table>
+
+<br/>
+
+<input style="width: 200px; height: 25px; font-size: 15px; " type="submit" name="REGISTER ME"> 
+
+
+</form>
+</div>
+</center>
+</body>
+</html>

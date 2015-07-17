@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title> HTML DEMO </title>
+
+<style type="text/css">
+
+ul#menu 
+{
+    padding: 0;
+}
+
+ul#menu li 
+{
+    display: inline;
+    padding: 2px;
+}
+
+ul#menu li a 
+{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover
+{
+    background-color: orange;
+}
+</style>
+
+<script type="text/javascript">
+
+function ShowDate()
+{
+	var d = new Date();
+	document.getElementById('tad').innerHTML = "<h3>" + " DATE : " + d.getDate()+" / "+d.getMonth()+" / "+d.getFullYear() + 
+	
+														"<br/> TIME : "+ d.toLocaleTimeString(); +"</h3>";
+}
+	
+	 
+</script>
+
+
+
+
+
+</head>
+
+
+<body onload="ShowDate();"   style=" background: linear-gradient(#9F81F7	, #FA58D0); "  >
+
+
+
+<table>
+<tr> </tr>
+</table>
+
+
+<div id="tad" style="text-align:right; padding: 0px 10% 0px 0px; color: white;  "  >  </div>
+
+
+<div id="RegForm" style="text-align: center;">
+ 
+ <ul id="menu">
+ 
+  <li><a href="D:\MyWork\BasicHtml\WebContent\Login.Html" target="ShowHere"> LOGIN </a></li>
+  
+  <li><a href="D:\MyWork\BasicHtml\WebContent\Registration.Html" target="ShowHere"> REGISTRATION </a></li>
+  
+
+  
+</ul>  
+
+
+
+ <br/>
+ <iframe name="ShowHere"  style=" height: 520px;width: 80%; background-color: #E0F8F7; border: none;">
+ 
+ 
+ </iframe>
+ 
+</div>
+
+</body>
+
+
+</html>
