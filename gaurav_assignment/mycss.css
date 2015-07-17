@@ -1,0 +1,26 @@
+body
+{
+font-family:vardana;
+font-size:16px;
+float:center;
+}
+
+div
+{
+margin-left:15px;
+color:green;
+margin:8px;
+}
+
+div .inp
+{
+width:auto;
+margin-right:10px;
+display:inline;
+position:inherit;
+}
+
+.red
+{
+color:red;
+}
